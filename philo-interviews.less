@@ -1,0 +1,53 @@
+/* CSS declarations go here */
+@color: #fff;
+
+body {
+  background-color: @color;
+}
+
+
+// From original css
+#main {
+  margin-top: 41px;
+}
+
+#time-select {
+  margin: 10px auto;
+}
+
+#calendar-form {
+  text-align: center;
+}
+
+tbody th {
+  visibility: hidden;
+}
+
+tbody tr:nth-child(2n+1) th {
+  visibility: visible;
+}
+
+td {
+  border: 1px solid #bbb;
+  border-width: 1px 1px 0 0;
+}
+
+tbody tr:nth-child(2n+1) td {
+  border-top-color: #888;
+}
+
+td:hover {
+  background-color: beige;
+}
+
+td:active, td.active, td.selected {
+  background-color: green;
+}
+
+td, td.inactive, ted.selected.inactive {
+  background-color: #ccc;
+}
+
+th {
+  padding: 0 10px;
+}
